@@ -1,0 +1,58 @@
+{
+  "name": "strapi-plugin-comments",
+  "version": "1.0.1-beta.6",
+  "description": "Strapi - Comments plugin",
+  "strapi": {
+    "name": "Comments",
+    "icon": "comments",
+    "description": "Comments & audience engagement"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/VirtusLab/strapi-plugin-comments"
+  },
+  "scripts": {
+    "test:unit": "jest --verbose --coverage"
+  },
+  "dependencies": {
+    "bad-words": "^3.0.3",
+    "lodash": "^4.17.11",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-intl": "4.5.0",
+    "react-redux": "^7.0.2",
+    "react-router": "^5.0.0",
+    "react-router-dom": "^5.0.0",
+    "reactstrap": "8.4.1",
+    "redux-saga": "^0.16.0",
+    "request": "^2.83.0",
+    "strapi-helper-plugin": "3.4.3",
+    "strapi-utils": "3.4.3",
+    "uuid": "^3.1.0"
+  },
+  "devDependencies": {
+    "koa": "^2.8.0",
+    "jest": "^26.0.1",
+    "jest-cli": "^26.0.1",
+    "jest-styled-components": "^7.0.2",
+    "codecov": "^3.7.2"
+  },
+  "author": {
+    "name": "VirtusLab // Mateusz Ziarko",
+    "email": "mziarko@virtuslab.com",
+    "url": "https://virtuslab.com"
+  },
+  "maintainers": [
+    {
+      "name": "VirtusLab // Mateusz Ziarko",
+      "email": "mziarko@virtuslab.com",
+      "url": "https://virtuslab.com"
+    }
+  ],
+  "engines": {
+    "node": ">=10.16.0",
+    "npm": ">=6.0.0"
+  },
+  "keywords": ["strapi", "plugin", "comments"],
+  "license": "MIT"
+}
